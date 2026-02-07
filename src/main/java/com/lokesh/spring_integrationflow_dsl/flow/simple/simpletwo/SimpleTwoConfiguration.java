@@ -1,4 +1,4 @@
-package com.lokesh.spring_integrationflow_dsl.flow.simpletwo;
+package com.lokesh.spring_integrationflow_dsl.flow.simple.simpletwo;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
