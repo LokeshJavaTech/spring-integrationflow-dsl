@@ -23,3 +23,20 @@ Spring Integration Flow
     4. Spring boot will create bean of SimpleTwoConfiguration class and instantiate the IntegrationFlow
 
 
+# File Processing Configuration
+1. To start FileOne Flow:
+   1. Enable "fileOne" profile in application.properties using:
+   2. ```properties
+        spring.profiles.active=fileOne
+      ```
+   3. Start the Spring Boot application
+   4. Spring boot will create bean of FileOneConfiguration class and instantiate the IntegrationFlow
+2. To start FileTwo Flow:
+   1. Enable "fileTwo" profile in application.properties using:
+   2. ```properties
+        spring.profiles.active=fileTwo
+       ```
+   3. Start the Spring Boot application
+   4. Spring boot will create bean of FileTwoConfiguration class and instantiate the IntegrationFlow
+
+
